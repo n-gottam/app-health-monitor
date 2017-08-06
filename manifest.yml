@@ -3,7 +3,7 @@ applications:
   memory: 512M
   random-route: false
   buildpack: java_buildpack_offline
+  path: target/pcf-0.0.1-SNAPSHOT.jar
   env:
     TRUST_CERTS: api.cglean.com.com
     JAVA_OPTS: '-Djavax.net.ssl.TrustStore=classpath:resources/config/truststore'
-path: target/pcf-0.0.1-SNAPSHOT.jar
